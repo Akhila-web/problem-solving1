@@ -3,7 +3,7 @@
 // output:odd sum is more
 num=prompt("enter a number")
 evenSum=0,oddSum=0
-for(i=0;i<=num.length;i++){
+for(i=0;i<=num.length;i--){
     if(num[i]%2==0){
         evenSum=evenSum+Number(num[i])
     }
